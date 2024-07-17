@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #6a6a6e;
+    background: #fcfafa;
 }
 
 .contact {
@@ -20,8 +20,8 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 10px 45px;
-    background: #8c8c94;
-    width: 500px;
+    background: #050042;
+    width: 700px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 0.9rem;
 }
@@ -48,10 +48,11 @@ body {
 }
 
 .form-contact input {
+    background-color: #050042;
     padding: 15px;
-    outline: none;
-    border: 0;
-    border-radius: 0.2rem;
+    /* outline: none; */
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ffffff;
     margin-bottom: 20px;
     font-size: 1rem;
     transition: all 0.5s;
@@ -62,13 +63,14 @@ body {
 }
 
 .form-contact textarea {
+    background-color: #050042;
     padding: 15px;
-    outline: none;
-    border-radius: 0.2rem;
-    border: 0;
+    /* outline: none; */
+    border-radius: 0.5rem;
+    border: 0.1rem solid #ffffff;
     font-size: 1rem;
     margin-bottom: 1.5rem;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 }
 
 .form-contact textarea:focus {
@@ -80,10 +82,10 @@ body {
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: 600;
-    background: transparent;
+    background: #0117a3;
     color: #ffffff;
     border-radius: 0.2rem;
-    border: 2px solid #ffffff;
+    border: 2px;
     transition: all 1s;
 }
 
